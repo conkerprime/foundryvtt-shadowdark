@@ -566,6 +566,7 @@ SHADOWDARK.item.spell_class: Spell Class
 SHADOWDARK.item.spell_duration: Duration
 SHADOWDARK.item.spell_name: Spell Name
 SHADOWDARK.item.spell_range: Range
+SHADOWDARK.item.spell_school: School of Magic
 SHADOWDARK.item.spell_tier: Tier
 SHADOWDARK.item.spell.label: Spell
 SHADOWDARK.item.stashed.label: Stashed
@@ -893,6 +894,12 @@ SHADOWDARK.spell_duration.permanent: Permanent
 SHADOWDARK.spell_duration.real_time: Real Time
 SHADOWDARK.spell_duration.rounds: Rounds
 SHADOWDARK.spell_duration.turns: Turns
+SHADOWDARK.spell_school.alteration: Alteration
+SHADOWDARK.spell_school.conjuration: Conjuration
+SHADOWDARK.spell_school.destruction: Destruction
+SHADOWDARK.spell_school.illusion: Illusion
+SHADOWDARK.spell_school.mysticism: Mysticism
+SHADOWDARK.spell_school.restoration: Restoration
 SHADOWDARK.spell_range.close: Close
 SHADOWDARK.spell_range.far: Far
 SHADOWDARK.spell_range.near: Near

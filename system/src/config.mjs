@@ -211,6 +211,7 @@ SHADOWDARK.EFFECT_TRANSLATIONS = {
 	"system.bonuses.rangedAttackBonus": "SHADOWDARK.talent.type.ranged_attack_bonus",
 	"system.bonuses.rangedDamageBonus": "SHADOWDARK.talent.type.ranged_damage_bonus",
 	"system.bonuses.stoneSkinTalent": "SHADOWDARK.talent.type.stoneSkinTalent",
+	"system.bonuses.spellSchoolBonus": "SHADOWDARK.item.effect.predefined_effect.spellSchoolBonus",
 	"system.bonuses.spellcastingCheckBonus": "SHADOWDARK.talent.type.spell_bonus",
 	"system.bonuses.spellcastingClasses": "SHADOWDARK.talent.type.bonus_caster_classes",
 	"system.bonuses.weaponMastery": "SHADOWDARK.talent.type.weapon_mastery",
@@ -438,6 +439,13 @@ SHADOWDARK.PREDEFINED_EFFECTS = {
 		name: "SHADOWDARK.item.effect.predefined_effect.spellDamageBonus",
 		mode: "CONST.ACTIVE_EFFECT_MODES.ADD",
 	},
+	spellSchoolBonus: {
+		defaultValue: 1,
+		effectKey: "system.roll.spell.bonus.REPLACEME",
+		img: "icons/magic/symbols/runes-star-blue.webp",
+		name: "SHADOWDARK.item.effect.predefined_effect.spellSchoolBonus",
+		mode: "CONST.ACTIVE_EFFECT_MODES.ADD",
+	},
 	stoneSkinTalent: {
 		defaultValue: "2+floor(@level.value/2)",
 		effectKey: "system.attributes.ac.value",
@@ -515,6 +523,15 @@ SHADOWDARK.DURATION_UNITS = {
 	turns: 600,
 	hours: 3600,
 	days: 86400,
+};
+
+SHADOWDARK.SPELL_SCHOOLS = {
+	alteration: "SHADOWDARK.spell_school.alteration",
+	conjuration: "SHADOWDARK.spell_school.conjuration",
+	destruction: "SHADOWDARK.spell_school.destruction",
+	illusion: "SHADOWDARK.spell_school.illusion",
+	mysticism: "SHADOWDARK.spell_school.mysticism",
+	restoration: "SHADOWDARK.spell_school.restoration",
 };
 
 SHADOWDARK.SPELL_RANGES = {

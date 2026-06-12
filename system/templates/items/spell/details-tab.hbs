@@ -55,6 +55,16 @@
 						localize=false
 					}}
 				</select>
+
+				<h3>{{localize 'SHADOWDARK.item.spell_school'}}</h3>
+				<select name="system.school">
+					<option value="">&mdash;</option>
+					{{selectOptions
+						config.SPELL_SCHOOLS
+						selected=system.school
+						localize=false
+					}}
+				</select>
 			{{/ui/sd-box}}
 
 			{{#> ui/sd-box

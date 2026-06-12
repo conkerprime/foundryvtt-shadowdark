@@ -30,6 +30,11 @@ export const magic = () => ({
     	initial: "none",
 		choices: Object.keys(CONFIG.SHADOWDARK.SPELL_DAMAGE_TYPES),
 	}),
+	school: new fields.StringField({
+		initial: "",
+		choices: Object.keys(CONFIG.SHADOWDARK.SPELL_SCHOOLS),
+		required: false,
+	}),
 	duration: new fields.SchemaField({
 		type: new fields.StringField({
 			initial: "rounds",

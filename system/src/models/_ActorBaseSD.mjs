@@ -198,6 +198,8 @@ export class ActorBaseSD extends foundry.abstract.TypeDataModel {
 				if (item.system?.baseArmor) selectors.push(item.system.baseArmor);
 				// is item a weapon?
 				if (item.system?.baseWeapon) selectors.push(item.system.baseWeapon);
+				// does item have a spell school?
+				if (item.system?.school) selectors.push(item.system.school.slugify());
 				// add name of item
 				selectors.push(item.name.slugify());
 
