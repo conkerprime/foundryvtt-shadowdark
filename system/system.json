@@ -1,6 +1,6 @@
 {
-	"id": "shadowdark - Fonzy",
-	"title": "Shadowdark RPG - Fonzy",
+	"id": "shadowdark_fonzy",
+	"title": "Shadowdark RPG Fonzy",
 	"description": "A system for playing the Shadowdark RPG from Arcane Library",
 	"version": "4.0.6",
 	"compatibility": {
